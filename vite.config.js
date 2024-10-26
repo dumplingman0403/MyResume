@@ -2,12 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
-// export default defineConfig({
-//   base: '/MyResume/',
-//   plugins: [vue()],
-// })
-
-
-module.exports = {
-  publicPath: '/MyResume/'
-}
+export default defineConfig({
+  base: '/MyResume/',
+  plugins: [vue()],
+})
